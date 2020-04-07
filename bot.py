@@ -321,6 +321,8 @@ async def help( ctx ):
 
 token = os.environ.get('BOT_TOKEN')
 
+bot.run(str(token))
+
 # 2d2f33 - темный цвет тона
 
 # embed.set_footer( text = "Собственность сервера VERSE!", icon_url = client.user.avatar_url ) - снизу написАНА
